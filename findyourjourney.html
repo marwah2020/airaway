@@ -1,0 +1,342 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <title>AirAway</title>
+    <link rel = "stylesheet" type="text/css" href= "style.css">
+
+
+</head>
+<body>
+    <ul class="nav">
+
+      <div class= "logo">
+        <img src="logo.jpeg.png" style="width:100%;">
+      </div>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="findyourjourney.html">Find Your Journey</a></li>
+      <li><a href="packages.html">Packages</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+    </ul>
+
+    <div class = "banner">
+      <img class="banner-image" src="boo.png">
+      <img src align = "center"></img>
+    </div>
+    <link rel = "stylesheet" type="text/css" href= "style.css">
+    <div id="wrapper">
+      <h1>What Is Your Perfect Vacation?</h1>
+      <p>Take this questionnaire to find out!</p>
+
+      <form id="quiz">
+        <!-- Question 1 -->
+        <h2>How many people are coming?</h2>
+        <!-- Here are the choices for the first question. Each input tag must have the same name. For this question, the name is q1. -->
+        <!-- The value is which answer the choice corresponds to. -->
+        <label><input type="radio">
+          1-2
+        </label><br />
+        <label><input type="radio">
+          3-4
+        </label><br />
+        <label><input type="radio">
+          5-6
+        </label><br />
+        <label><input type="radio">
+          6+
+        </label><br />
+
+        <!-- Question 2 -->
+        <h2>What is the main reason for your visit?</h2>
+        <!-- Here are the choices for the second question. Notice how each input tag has the same name (q2), but a different name than the previous question. -->
+        <label><input type="radio">
+          Relaxation
+        </label><br />
+        <label><input type="radio">
+          Exploration
+        </label><br />
+        <label><input type="radio">
+          Both
+        </label><br />
+
+
+        <!-- Question 3 -->
+        <h2>When I go on this vacation I want to...</h2>
+        <!-- Choices for the third question -->
+        <label><input type="radio">
+          Swwim with sharks
+        </label><br />
+        <label><input type="radio">
+          Learn about clubs
+        </label><br />
+        <label><input type="radio">
+          Go to beaches
+        </label><br />
+        <label><input type="radio">
+          Climb mountains
+        </label><br />
+
+        <!-- Question 4 -->
+        <h2>When is the perfect time to begin the day?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio">
+          8am - 9am
+        </label><br />
+        <label><input type="radio">
+          9am - 10am
+        </label><br />
+        <label><input type="radio">
+          10am-11am
+        </label><br />
+        <label><input type="radio">
+          After 12am
+        </label><br />
+
+        <!-- Question 5-->
+        <h2>What type of area are you intrested in visiting?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio">
+          Metropoltian
+        </label><br />
+        <label><input type="radio">
+          Waterfront
+        </label><br />
+        <label><input type="radio">
+          Historic
+        </label><br />
+        <label><input type="radio">
+          Mountian Range
+        </label> <br />
+
+      <button type="reset" id="reset" onclick="resetAnswer()">Reset</button>
+      </form>
+</div>
+
+<div class="w3-container">
+
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Find your Next Journey</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="submit">&times;</span>
+        <div><!DOCTYPE>
+        <html>
+        <head>
+          <link ref = "stylesheet" type = "text/css" href = "template.css">
+        </head>
+        <body>
+          <center> <h1> Your perfect </h1> </center>
+          <center> <h1> vacation package is... </h1> </center>
+          <center> <h1> Bora Bora </h1> </center>
+
+          <div align = "center" class = "photo">
+            <image class = "photo" img src = "borbor.jpg" >
+            </div>
+            <p>Bora Bora is an
+        Island in French Polynesia
+        Bora Bora is a small South Pacific island northwest of Tahiti in French Polynesia. Surrounded by sand-fringed motus (islets) and a turquoise lagoon protected by a coral reef, it’s known for its scuba diving. It's also a popular luxury resort destination where some guest bungalows are perched over the water on stilts. At the island's center rises Mt. Otemanu, a 727m dormant volcano.
+        Area: 11.8 mi²
+        Elevation: 2,385′
+        Population: 10,605 (2017)
+        Highest point: Mount Otemanu </p>
+            <form action = "https://www.orbitz.com/Cheap-Flights-To-Bora-Bora.d602861.Travel-Guide-Flights">
+              <button class="w3-button w3-black">View Flight</button>
+            </form>
+            <form action = " https://www.tripadvisor.com/Hotel_Review-g311415-d299700-Reviews-Sofitel_Bora_Bora_Marara_Beach_Resort-Bora_Bora_Society_Islands.html ">
+              <button class="w3-button w3-black">View Hotel</button>
+            </form>
+
+            <form action = "file:///Users/marwahassan/Documents/price.html">
+              <button class="w3-button w3-black">View Total pricing </button>
+            </form>
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        /* The Modal (background) */
+        .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: blue; /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+        /* Modal Content */
+        .modal-content {
+        position: relative;
+        background-color: white;
+        margin: auto;
+        padding: 0;
+        border: 1px solid violet;
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s
+        }
+        /* Add Animation */
+        @-webkit-keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+        }
+        @keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+        }
+        /* The Close Button */
+        .close {
+        color: white;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+        }
+        .modal-header {
+        padding: 2px 16px;
+        background-color: #e6b3ff;
+        color: white;
+        }
+        .modal-body {padding: 2px 16px;}
+        .modal-footer {
+        padding: 2px 16px;
+        background-color: #b3b3ff;
+        color: white;
+        }
+        </style>
+        </head>
+        <body>
+        <!-- Trigger/Open The Modal -->
+      
+        <h2> Week's Itenarary</h2>
+        </div>
+        <div>
+          <p><strong>Itenarary:</strong> </p>
+          <p><strong> Saturday,October 6: </strong></p>
+          <p> - Breakfast at 9am in the Breakfast Lounge </p>
+          <p> 11am- Visit Mt Pahia, Climb up the trail you can see Mt Otemanu </p>
+          <p> 3pm- return back to the hotel and have lunch </p>
+          <p> 4pm- Explore the hotel and visit the beach </p>
+          <p> 8pm- Have Dinner in your room and relax </p>
+          <p> The rest of the night is the left to yours </p>
+
+          <p><strong> Sunday,October 7: </strong></p>
+          <p> -Breakfast at 8am in bed </p>
+          <p> 10am- wear something comfortable you cann swim in, and head over to Bora Bora Lagoonarium, Have Fun  </p>
+          <p>4pm- Have lunch at Le Corail which is 0.9miles from the Lagoonarium  </p>
+          <p> 5pm- Return to the hotel hhave fun in the pool</p>
+          <p>8pm- Have dinner in the cafe, Goodnight </p>
+
+          <p><strong> Monday,October 8:</strong></p>
+          <p> -Breakfast at 7am in the breakfast lounge </p>
+          <p> 8am-nGet ready for a cultural Island Tour</p>
+          <p>  8:30am- Start the tour</p>
+          <p>12pm- Return tothe lodge, have a quick light lunch cuz were going under water again</p>
+          <p> 1pm- Get dressedin a comfortable swimming outfit</p>
+          <p>1:30pm- Leave for the Aqua Safari </p>
+          <p> 4pm- Relax in a semi private sunset cruise and Dinner at St James, dinner will be provide at St James one of Boar Bora's highest rated resturant in vaiatape</p>
+          <p>9pm- The rest of the night is yours </p>
+
+          <p><strong>Tuesday,October 9:</strong></p>
+          <p> 8am- Come in a a swiming outfit and have breakfast at Noa Noa</p>
+          <p> 9am- Head out for a Combo Jet Ski, lunch and Shark and Ray Exploration</p>
+          <p> 4pm- Return to your hotel and relax</p>
+          <p>4:30pm- Head out for a Sunset Cruise and Dinner at Matria Beach Restraunt </p>
+          <p> 10pm-G'night</p>
+
+          <p><strong>Wednesday, October 10:</strong> </p>
+          <p>10am: Bruch in Latitude 16 </p>
+          <p> 11am- Head to Leopard Rays Trench</p>
+          <p> 2pm Head to the main land and have lunch at Bloody Mary</p>
+          <p> 3pm- Check out Tahiti Pearl Market or Tryout the Local markets, try some foot at Roulettes have fun</p>
+          <p> 8pm- The Night is yours </p>
+
+          <p><strong>Thursday,October 11:</strong></p>
+          <p>8am- Have a nice big Breakfast Aloe Cafe </p>
+          <p> 9am-mLady pearl Bora Bora Legendary Tour </p>
+          <p>11am- Head over to Lagoon Service Bora Bora and Have Fun!! </p>
+          <p> 2pm- Have lunch at a nearby Resturant</p>
+          <p>5pm-Take a Private Champange Sunset Cruise </p>
+          <p> 7pm- Enjoy the night</p>
+
+          <p><strong>Friday,October 12:</strong> </p>
+          <p>7am-Breakfast at Te Pahu Resturant </p>
+          <p> 8am- Go for an Aquabike adventure, Personal Submarine Scotter</p>
+          <p> 10:30am- Head over for Bora Bora Parasailing</p>
+          <p> 11am- Head over to Maohi Nui, *Lunch will be served</p>
+          <p>4pm- LET'S GO SKYDIVING!!!! </p>
+          <p> 6PM:Head over for a Bora Bora Lagoon Limosine Private Sunset Cruise </p>
+          <p>10pm:Time to Leave Bora Bora, Hope you enjoyed your trip </p>
+
+        </div>
+        </div>
+        </div>
+        <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        // When the user clicks the button, open the modal
+        btn.onclick = function() {
+        modal.style.display = "block";
+        }
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+        if (event.target == modal) {
+        modal.style.display = "none";
+        }
+        }
+        </script>
+        <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        // When the user clicks the button, open the modal
+        btn.onclick = function() {
+        modal.style.display = "block";
+        }
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+        if (event.target == modal) {
+        modal.style.display = "none";
+        }
+        }
+
+        <script src="bojava.js">
+        </script>
+        </form>
+        </body>
+        </html></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

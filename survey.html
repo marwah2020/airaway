@@ -1,0 +1,76 @@
+<link rel = "stylesheet" type="text/css" href= "style.css">
+<div id="wrapper">
+  <h1>What Is Your Perfect Vacation?</h1>
+  <p>Take this questionnaire to find out!</p>
+
+  <form id="quiz">
+    <!-- Question 1 -->
+    <h2>How many people are coming?</h2>
+    <!-- Here are the choices for the first question. Each input tag must have the same name. For this question, the name is q1. -->
+    <!-- The value is which answer the choice corresponds to. -->
+    <label><input type="radio" name="q1" value="c1">
+      1-2
+    </label><br />
+    <label><input type="radio" name="q1" value="c2">
+      3-4
+    </label><br />
+    <label><input type="radio" name="q1" value="c3">
+      5-6
+    </label><br />
+    <label><input type="radio" name="q1" value="c4">
+      6+
+    </label><br />
+
+    <!-- Question 2 -->
+    <h2>What is the main reason for your visit?</h2>
+    <!-- Here are the choices for the second question. Notice how each input tag has the same name (q2), but a different name than the previous question. -->
+    <label><input type="radio" name="q2" value="c1">
+      Relaxation
+    </label><br />
+    <label><input type="radio" name="q2" value="c2">
+      Exploration
+    </label><br />
+    <label><input type="radio" name="q2" value="c3">
+      Both
+    </label><br />
+
+
+    <!-- Question 3 -->
+    <h2>When I go on this vacation I want to...</h2>
+    <!-- Choices for the third question -->
+    <label><input type="radio" name="q3" value="c1">
+      Swwim with sharks
+    </label><br />
+    <label><input type="radio" name="q3" value="c2">
+      Learn about clubs
+    </label><br />
+    <label><input type="radio" name="q3" value="c3">
+      Go to beaches
+    </label><br />
+    <label><input type="radio" name="q3" value="c4">
+      Climb mountains
+    </label><br />
+
+    <!-- Question 4 -->
+    <h2>When is the perfect time to begin the day?</h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q4" value="c1">
+      8am - 9am
+    </label><br />
+    <label><input type="radio" name="q4" value="c2">
+      9am - 10am
+    </label><br />
+    <label><input type="radio" name="q4" value="c3">
+      10am-11am
+    </label><br />
+    <label><input type="radio" name="q4" value="c4">
+      After 12am
+    </label><br />
+
+    <button type="submit" id="submit" onclick="tabulateAnswers()">Find Your Next Journey</button>
+  <button type="reset" id="reset" onclick="resetAnswer()">Reset</button>
+  </form>
+
+
+  <div id="answer">Your result will show up here!</div>
+</div>
